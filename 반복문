@@ -1,0 +1,30 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main()
+{
+	for (int i = 0; i < 15; i++)
+	{
+		for (int j = 0; j < 10; j++)
+		{ }
+		printf("*");
+	}
+	printf("\n\n");
+
+	for (int j = 0; j < 10; j++)
+	{
+		printf("*");
+	}
+	// i,j,k,l,m,n...
+	for (int l = 0; l < 3; l++)
+	{
+		for (int m = 0; m < 5; m++)
+		{
+			printf("*");
+
+		}
+		printf("\n");
+	}
+	return 0;
+
+}
